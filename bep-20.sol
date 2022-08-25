@@ -15,8 +15,7 @@ $$ |  $$ |$$ |        \$$$  /    $$ |    \$$$  /  $$ |            $$ |      $$ |
 $$ |  $$ |$$$$$$$$\    \$  /   $$$$$$\    \$  /   $$$$$$$$\       $$ |      $$ |      \$$$$$$  | \$$$$  |\$$$$$$  |\$$$$$$$\ \$$$$$$  |$$ |
 \__|  \__|\________|    \_/    \______|    \_/    \________|      \__|      \__|       \______/   \____/  \______/  \_______| \______/ \__|
                                                                                                                                            
-Join Community: 
-https://t.me/ReviveProtocol
+
 **/
 
 
@@ -428,7 +427,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract REVIVEProtocol is Context, IERC20, Ownable {
+contract DenemeBSC is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
     
@@ -449,8 +448,8 @@ contract REVIVEProtocol is Context, IERC20, Ownable {
     uint256 public launchedAt;
     uint256 public launchedTime;
 
-    string private _name = "Revive Protocol";
-    string private _symbol = "RVP";
+    string private _name = "DenemeBSC";
+    string private _symbol = "DNM";
     uint8 private _decimals = 9;
 
     address DEAD = 0x000000000000000000000000000000000000dEaD;
